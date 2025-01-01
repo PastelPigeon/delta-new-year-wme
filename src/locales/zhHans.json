@@ -1,0 +1,20 @@
+[
+  {"key": "softwareDeltaruneGameName", "value": "除夕之夜"},
+  {"key": "softwareWebBrowserName", "value": "浏览器"},
+  {"key": "softwareSettingsName", "value": "设置"},
+  {"key": "softwareLiveName", "value": "直播"},
+  {"key": "softwareDeltaFunsName", "value": "论坛"},
+  {"key": "webBrowser-topBar-file", "value": "文件"},
+  {"key": "webBrowser-topBar-edit", "value": "编辑"},
+  {"key": "webBrowser-topBar-view", "value": "视图"},
+  {"key": "webBrowser-topBar-favorites", "value": "收藏"},
+  {"key": "webBrowser-topBar-tools", "value": "工具"},
+  {"key": "webBrowser-topBar-help", "value": "帮助"},
+  {"key": "webBrowser-topBar-addressInput-placeholder", "value": "在此键入内容以搜索"},
+  {"key": "webBrowser-addressInputMenu-title", "value": "已固定"},
+  {"key": "webBrowser-pages-works-displayName", "value": "拜年祭作品集"},
+  {"key": "webBrowser-pages-live-displayName", "value": "拜年祭直播"},
+  {"key": "webBrowser-pages-about-displayName", "value": "关于拜年祭"},
+  {"key": "webBrowser-pages-deltarune-displayName", "value": "三角符文官网"},
+  {"key": "webBrowser-pages-notFound-displayName", "value": "页面未找到"}
+]

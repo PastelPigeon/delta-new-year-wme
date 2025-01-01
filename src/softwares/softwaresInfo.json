@@ -1,0 +1,52 @@
+[
+  {
+    "softwareID": 0,
+    "name": "softwareDeltaruneGameName",
+    "icon": "./assets/software-icons/gameIcon.png",
+    "window":{
+      "width": 652,
+      "height": 525,
+      "allowMaximize": true
+    }
+  },
+  {
+    "softwareID": 1,
+    "name": "softwareWebBrowserName",
+    "icon": "./assets/software-icons/gameIcon.png",
+    "window":{
+      "width": 800,
+      "height": 600,
+      "allowMaximize": true
+    }
+  },
+  {
+    "softwareID": 2,
+    "name": "softwareSettingsName",
+    "icon": "./assets/software-icons/gameIcon.png",
+    "window":{
+      "width": 350,
+      "height": 600,
+      "allowMaximize": false
+    }
+  },
+  {
+    "softwareID": 3,
+    "name": "softwareLiveName",
+    "icon": "./assets/software-icons/gameIcon.png",
+    "window":{
+      "width": 800,
+      "height": 600,
+      "allowMaximize": true
+    }
+  },
+  {
+    "softwareID": 4,
+    "name": "softwareDeltaFunsName",
+    "icon": "./assets/software-icons/gameIcon.png",
+    "window":{
+      "width": 800,
+      "height": 600,
+      "allowMaximize": true
+    }
+  }
+]

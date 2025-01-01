@@ -1,0 +1,69 @@
+.webBrowser .topBar{
+  border-bottom: #656565 3px solid;
+  background: #adadad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.webBrowser .page{
+  position: absolute;
+  top: 43px;
+  left: 0px;
+  width: 100%;
+  height: calc(100% - 43px);
+}
+
+.webBrowser .notFoundPage{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.webBrowser .topBar .addressInput{
+  position: absolute;
+  right: 3px;
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font: 13px "dtm","fzb";
+  color: #000;
+  border: #656565 3px solid;
+}
+
+.webBrowser .addressInputMenu{
+  position: absolute;
+  right: 3px;
+  background: #b8b8b8;
+  border-bottom: #656565 3px solid;
+  border-left: #656565 3px solid;
+  border-right: #656565 3px solid;
+  width: 193px;
+  top: 37px;
+}
+
+.webBrowser .addressInputMenu .title{
+  position: relative;
+  top: 7px;
+  left: 10px;
+}
+
+.webBrowser .addressInputMenu .addressItemsList{
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.webBrowser .addressInputMenu .addressItemsList .addressItem{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: #222222;
+}
+
+.webBrowser .addressInputMenu .addressItemsList .addressItem .address{
+  font-size: 12px;
+}

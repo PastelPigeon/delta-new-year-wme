@@ -1,0 +1,22 @@
+[
+  {
+    "address": "www.works.com",
+    "displayName": "webBrowser-pages-works-displayName"
+  },
+  {
+    "address": "www.live.com",
+    "displayName": "webBrowser-pages-live-displayName"
+  },
+  {
+    "address": "www.about.com",
+    "displayName": "webBrowser-pages-about-displayName"
+  },
+  {
+    "address": "www.deltarune.com",
+    "displayName": "webBrowser-pages-deltarune-displayName"
+  },
+  {
+    "address": "blog.december.com",
+    "displayName": "webBrowser-pages-notFound-displayName"
+  }
+]

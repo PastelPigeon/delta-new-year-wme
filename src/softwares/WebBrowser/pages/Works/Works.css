@@ -1,0 +1,81 @@
+.worksPage{
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.worksPage .top{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: calc(100% - 62px);
+}
+
+.worksPage .top .logo{
+  width: 200px;
+}
+
+.worksPage .top .queryBox{
+  position: absolute;
+  right: 0px;
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font: 13px "dtm","fzb";
+  color: #000;
+  border: #656565 3px solid;
+}
+
+.worksPage .worksGrid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 20px;
+  width: calc(100% - 26px);
+  top: 130px;
+}
+
+.worksPage .worksGrid .workItem{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.worksPage .worksGrid .workItem .cover{
+  width: 228px;
+  height: 130px;
+}
+
+.worksPage .worksGrid .workItem .info{
+  width: 228px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 47px;
+  margin-top: 7px;
+}
+
+.worksPage .worksGrid .workItem .info .author{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-top: auto;
+}
+
+.worksPage .worksGrid .workItem .info .author .avater{
+  width: 20px;
+  left: 20px;
+}
+
+.worksPage .worksGrid .workItem .info .author .name{
+  font-size: 12px;
+}

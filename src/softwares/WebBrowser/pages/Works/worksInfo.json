@@ -1,0 +1,29 @@
+[
+  {
+    "title": "捏捏饺子摆摆饺子",
+    "description": "混沌全员向手书",
+    "cover": "./assets/covers/cover-default.png",
+    "author": {
+      "name": "samuton9574",
+      "avater": "./assets/avaters/samuton9574.avif"
+    }
+  },
+  {
+    "title": "Queen速通第一章",
+    "description": "游戏动画（搞笑向）",
+    "cover": "./assets/covers/cover-default.png",
+    "author": {
+      "name": "寄球Rubby",
+      "avater": "./assets/avaters/寄球Rubby.webp"
+    }
+  },
+  {
+    "title": "用猫meme打开三角符文的故事",
+    "description": "动画",
+    "cover": "./assets/covers/cover-default.png",
+    "author": {
+      "name": "Y雅米M",
+      "avater": "./assets/avaters/Y雅米M.avif"
+    }
+  }
+]
