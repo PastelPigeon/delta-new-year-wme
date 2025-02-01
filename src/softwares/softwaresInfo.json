@@ -31,7 +31,7 @@
   },
   {
     "softwareID": 3,
-    "name": "softwareLiveName",
+    "name": "softwareMediaPlayerName",
     "icon": "./assets/software-icons/gameIcon.png",
     "window":{
       "width": 800,

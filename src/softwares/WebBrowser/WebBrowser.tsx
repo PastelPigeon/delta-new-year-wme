@@ -35,6 +35,10 @@ export default function WebBrowser(){
           (currentPage != "www.works.com" && currentPage != "www.live.com" && currentPage != "www.about.com" && currentPage != "www.deltarune.com") &&
           <NotFoundPage targetAddress={currentPage}/> 
         }
+        {
+          currentPage == "www.deltarune.com" &&
+          <iframe src="https://www.deltarune.com" className="deltaruneWebsiteIframe"/>
+        }
       </div>
       {
         isAddressInputOnFocus &&

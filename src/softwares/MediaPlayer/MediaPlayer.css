@@ -1,0 +1,31 @@
+.mediaPlayer{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #2c2c2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mediaPlayer label{
+  color: #fff;
+}
+
+.timer{
+  margin: 15px 0px;
+}
+
+.timer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.timer .hms{
+  font-size: 20px;
+}

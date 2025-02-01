@@ -1,0 +1,214 @@
+@keyframes announcementAni {
+  0%{
+    margin-left: 100%;
+  }
+
+  100%{
+    margin-left: -50%;
+  }
+}
+
+.deltaFuns label{
+  color: #000fff;
+}
+
+.deltaFuns{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.headImg{
+  height: 150px;
+  border: none;
+}
+
+.announcementBar{
+  border-top: #000fff 2px solid;
+  border-bottom: #000fff 2px solid;
+  height: 24px;
+  overflow: hidden;
+}
+
+.announcement{
+  animation: announcementAni 10s linear infinite;
+}
+
+.contentContainer{
+  padding: 20px 25px;
+  height: calc(100% - 220px);
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.categories{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.categoriesList{
+  padding: 10px;
+  height: calc(100% - 24px);
+  border: #000fff 2px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.deltaFuns button[data-style=transparent]{
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+  padding: 5px;
+}
+
+.deltaFuns button[data-style=transparent] .text{
+  text-decoration: underline;
+  font-size: 14px;
+  color: #000fff;
+  transition: all 0.5s;
+}
+
+.deltaFuns button[data-style=transparent]:hover .text{
+  color: #ffff00;
+}
+
+.deltaFuns button[data-style=transparent][data-isSelected=true] .text{
+  color: #ffff00;
+}
+
+.deltaFuns button[data-style=transparent] .point{
+  display: block;
+  background: #000fff;
+  width: 3px;
+  height: 3px;
+  transition: all 0.5s;
+}
+
+.deltaFuns button[data-style=transparent]:hover .point{
+  background: #ffff00;
+}
+
+.deltaFuns button[data-style=transparent][data-isSelected=true] .point{
+  background: #ffff00;
+}
+
+.deltaFuns .posts{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: calc(100% - 220px);
+}
+
+.deltaFuns .posts .top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.deltaFuns .posts .top .addButton{
+  position: relative;
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+  font-size: 14px;
+  color: #000fff;
+  font: var(--font);
+  transition: all 0.5s;
+  margin-left: auto;
+}
+
+.deltaFuns .posts .top .addButton:hover{
+  color: #ffff00;
+}
+
+.deltaFuns .posts .postsList{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: calc(100% - 20px);
+  overflow-y: scroll;
+}
+
+.deltaFuns .posts .postsList::-webkit-scrollbar{
+  display: none;
+}
+
+.deltaFuns .posts .postsList .post{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 15px;
+  border-bottom: #000fff 2px solid;
+  gap: 10px;
+  position: relative;
+}
+
+.deltaFuns .posts .postsList .post .uploader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+
+.deltaFuns .posts .postsList .post .uploader .avater{
+  width: 50px;
+  height: 50px;
+}
+
+.deltaFuns .posts .postsList .post .uploader .name{
+  font-size: 12px;
+  text-decoration: underline;
+  transition: all 0.5s;
+}
+
+.deltaFuns .posts .postsList .post .uploader:hover .name{
+  color: #ffff00;
+}
+
+.deltaFuns .posts .postsList .post .postContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.deltaFuns .posts .postsList .post .postContent .title{
+  text-decoration: underline;
+  transition: all 0.5s;
+  position: absolute;
+  top: 10px;
+}
+
+.deltaFuns .posts .postsList .post .postContent:hover .title{
+  color: #ffff00;
+}
+
+.deltaFuns .posts .postsList .post .postContent .contentText{
+  font-size: 12px;
+}
+
+.deltaFuns .posts .postsList .post .postContent .category{
+  font-size: 12px;
+  text-decoration: underline;
+  transition: all 0.5s;
+  position: absolute;
+  bottom: 10px;
+}
+
+.deltaFuns .posts .postsList .post .postContent .category:hover{
+  color: #ffff00;
+}

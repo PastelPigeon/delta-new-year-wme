@@ -6,6 +6,8 @@ import useWindowSize from './useWindowSize'
 import Draggable from 'react-draggable'
 import WebBrowser from './softwares/WebBrowser/WebBrowser'
 import Game from './softwares/Game/Game'
+import MediaPlayer from './softwares/MediaPlayer/MediaPlayer'
+import DeltaFuns from './softwares/DeltaFuns/DeltaFuns'
 
 const ActiveWindowsContext = createContext(null)
 
@@ -44,6 +46,14 @@ function Window(props: {softwareID: number}){
           {
             props.softwareID == 1 &&
             <WebBrowser/>
+          }
+          {
+            props.softwareID == 3 &&
+            <MediaPlayer/>
+          }
+          {
+            props.softwareID == 4 &&
+            <DeltaFuns/>
           }
         </div>
       </div>

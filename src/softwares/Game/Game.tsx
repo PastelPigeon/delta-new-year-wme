@@ -2,6 +2,6 @@ import "./Game.css"
 
 export default function Game(){
   return(
-    <iframe className='deltaruneGameIframe'  src={new URL("./deltarune-game/index.html", import.meta.url).href}/>
+    <iframe className='deltaruneGameIframe'  src={"/delta-new-year-wme/deltarune-game/index.html"}/>
   )
 }

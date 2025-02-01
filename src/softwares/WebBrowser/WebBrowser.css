@@ -14,13 +14,6 @@
   height: calc(100% - 43px);
 }
 
-.webBrowser .notFoundPage{
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
 .webBrowser .topBar .addressInput{
   position: absolute;
   right: 3px;
@@ -66,4 +59,11 @@
 
 .webBrowser .addressInputMenu .addressItemsList .addressItem .address{
   font-size: 12px;
+}
+
+.deltaruneWebsiteIframe{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
